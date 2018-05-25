@@ -26,10 +26,10 @@
 
 ## 参考資料
 
-- カスタムイベントを作成してAzureイベントグリッドにルーティングする
-- Azure関数の使い方
+- [カスタムイベントを作成してAzureイベントグリッドにルーティングする](https://docs.microsoft.com/ja-jp/azure/event-grid/custom-event-quickstart)
+- [Azure関数の使い方](https://docs.microsoft.com/ja-jp/azure/azure-functions/functions-overview)
 - Microsoft Teamsのボットで会話を作成する
-- 開いている拡張機能を使用してMicrosoft Graphにカスタムデータを追加する
-- Bot FrameworkのOAuth用BotAuthパッケージ
-- ボット用のMicrosoft Teams認証フロー
-- Azure Botサービス経由でボットに認証を追加する
+- [開いている拡張機能を使用してMicrosoft Graphにカスタムデータを追加する](https://developer.microsoft.com/ja-jp/graph/docs/concepts/extensibility_open_users)
+- [Bot FrameworkのOAuth用BotAuthパッケージ](https://github.com/MicrosoftDX/botauth)
+- [ボット用のMicrosoft Teams認証フロー](https://docs.microsoft.com/ja-jp/microsoftteams/platform/concepts/authentication/auth-flow-bot)
+- [Azure Botサービス経由でボットに認証を追加する](https://docs.microsoft.com/ja-jp/azure/bot-service/bot-builder-tutorial-authentication?view=azure-bot-service-3.0)
