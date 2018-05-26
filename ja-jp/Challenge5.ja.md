@@ -10,7 +10,7 @@
 
 ## 課題
 
-あなたのボットは、ユーザの達成バッジを返すSubmit Answer APIを呼び出します。 ユーザーが新しいアチーブメントバッジを獲得したら、そのデータを作成してAzureイベントグリッドトピックに送信する必要があります。 Azure関数を使用して、イベントグリッドトピックへのサブスクリプションを作成します。Azure関数は、Microsoftチームの各チームメンバーに個別に積極的なメッセージを送信し、達成状況を発表します。 ロスタ情報を使用して、各ユーザに積極的にメッセージを送るために必要な詳細を見つけることができます（これを自由に記述してください）。 新しい成果バッジが獲得されたときにMicrosoft Graphでユーザーのプロファイルを更新するイベントグリッドトピックの2番目のサブスクリプションを作成します。 達成バッジは、 "com.msopenhack.trivia" extensionNameを使用して、ユーザーオープン拡張の「バッジ」プロパティに格納する必要があります。
+あなたのボットは、ユーザの達成バッジを返す[Submit Answer](https://msopenhack.azurewebsites.net/swagger/ui/index#!/Trivia/Trivia_SubmitAnswer) APIを呼び出します。 ユーザーが新しいアチーブメントバッジを獲得したら、そのデータを作成してAzureイベントグリッドトピックに送信する必要があります。 Azure関数を使用して、イベントグリッドトピックへのサブスクリプションを作成します。Azure関数は、Microsoftチームの各チームメンバーに個別に積極的なメッセージを送信し、達成状況を発表します。 ロスタ情報を使用して、各ユーザに積極的にメッセージを送るために必要な詳細を見つけることができます（これを自由に記述してください）。 新しい成果バッジが獲得されたときにMicrosoft Graphでユーザーのプロファイルを更新するイベントグリッドトピックの2番目のサブスクリプションを作成します。 達成バッジは、 "com.msopenhack.trivia" extensionNameを使用して、ユーザーオープン拡張の「バッジ」プロパティに格納する必要があります。
 
 注：イベントグリッドは、ボットの会話ロジックから重い処理を切り離すことができるので（ボットがエンドユーザに遅くなるようにするため）、ここではイベントグリッドが使用されます。
 
@@ -28,7 +28,6 @@
 
 - [カスタムイベントを作成してAzureイベントグリッドにルーティングする](https://docs.microsoft.com/ja-jp/azure/event-grid/custom-event-quickstart)
 - [Azure関数の使い方](https://docs.microsoft.com/ja-jp/azure/azure-functions/functions-overview)
-- Microsoft Teamsのボットで会話を作成する
 - [開いている拡張機能を使用してMicrosoft Graphにカスタムデータを追加する](https://developer.microsoft.com/ja-jp/graph/docs/concepts/extensibility_open_users)
 - [Bot FrameworkのOAuth用BotAuthパッケージ](https://github.com/MicrosoftDX/botauth)
 - [ボット用のMicrosoft Teams認証フロー](https://docs.microsoft.com/ja-jp/microsoftteams/platform/concepts/authentication/auth-flow-bot)
