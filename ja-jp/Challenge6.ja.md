@@ -24,6 +24,4 @@ Microsoft Teams では、メッセージング拡張機能を使用すること�
 
 - [Microsoft Teams 用メッセージング拡張機能を作成する (英語)](https://docs.microsoft.com/ja-jp/microsoftteams/platform/concepts/messaging-extensions)
 
-- [Microsoft Teams のカードと操作](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/bots/bots-cards)
-
 - [1 つの HTTP 呼び出しで複数の Microsoft Graph 要求を統合する](https://developer.microsoft.com/ja-jp/graph/docs/concepts/json_batching)
